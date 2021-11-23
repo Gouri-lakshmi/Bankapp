@@ -1,0 +1,25 @@
+
+
+    
+    <div class="container" >
+      <p><b>{{aim}}</b></p>
+
+        <h2>Login Form</h2>
+        <div class="mb-3 p-2">
+          <label for="exampleInputEmail1" class="form-label" style="margin-right: 240px;">Account Number:</label>
+          <input type="email" class="form-control" id="accno" name="acno"[(ngModel)]= "acno" aria-describedby="emailHelp" placeholder="account number">
+          
+        </div>
+        <div class="mb-3 p-2">
+          <label for="exampleInputPassword1" class="form-label" style="margin-right: 298px;">Password:</label>
+          <input type="password" class="form-control" id="pwd1" name="pwd" [(ngModel)]="pwd" placeholder="password">
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto p-2">
+            <button class="btn btn" type="button" (click)="login()">Login </button>
+            <a href='register'>Register</a>
+            
+          </div>
+      
+
+    </div>
+

@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(184, 114, 228);
+}
+.navbar{
+    background-color: rgb(214, 216, 218);
+}
+#nav1{
+    margin-left: 41px;
+}
+#nav2{
+    margin-left: 39px;
+}
+#nav3{
+    margin-left: 40px;
+}
+#nav4{
+    margin-left: 32px;
+}
+.fab{
+    color: rgb(34, 115, 221); 
+}
+.container{
+    width: 415px; 
+    margin-top: 30px;
+    border: solid;
+    border-color: white;
+    border-radius: 10px; 
+    background: white;
+}
